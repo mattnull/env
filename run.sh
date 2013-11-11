@@ -6,7 +6,7 @@ envVars=(
 	"PORT=3000"
 )
 
-setEnv () {
+run () {
 	cmd=""
 
 	for i in "${envVars[@]}"
@@ -22,6 +22,6 @@ setEnv () {
 	exit 0
 }
 
-setEnv
+run
 
 exit $?
