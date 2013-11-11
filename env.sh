@@ -16,7 +16,7 @@ setEnv () {
 		cmd+=" "
 	done
 
-	cmd+="node npm.js"
+	cmd+="node app.js"
 
 	eval $cmd
 	exit 0
